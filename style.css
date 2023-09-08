@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#tag{
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    
+    background-color: rgb(11, 11, 11);
+}
+#tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#tag h1{
+    font-size: 1.3vw;
+}
+#nav{ 
+   height: 100%;
+   width: 100%;
+   padding: 0px 49px;
+  
+
+   background-color: rgb(11, 10, 10);
+   
+}
+#tag button{
+    padding: 0.5vw 2vw;
+    font-size: 1.2vw;
+    color: #000;
+    /* border: none; */
+    border-radius: 3px;
+    font-weight: 600;
+    background-color: #60a4f295;
+    border: 3px solid rgba(40, 177, 240, 0.832);
+}
+#main{
+    height: 100%;
+    width: 100%;
+   background-color: rgb(44, 44, 44);
+}
+#footer{
+    height: 100%;
+    width: 100%;
+   background-color: rgb(69, 69, 71);
+}
+#nav img{
+    /* border: 1px solid white; */
+    width: 11vw;
+    height: 6.3vh;
+    object-fit: cover;
+
+}
+@media (min-width:320px) and (max-width:425px){
+    #tag h1{
+        font-size: 3vw;
+        
+    }
+    #nav img{
+        /* border: 1px solid white; */
+        width: 16vw;
+        height: 6.3vh;
+        object-fit: cover;
+    
+    }
+    #tag button{
+        padding: 0.7vw 3vw;
+        font-size: 2.2vw;
+        color: #000;
+        /* border: none; */
+        border-radius: 3px;
+        font-weight: 600;
+        background-color: #60a4f295;
+        border: 3px solid rgba(40, 177, 240, 0.832);
+    }
+}
+@media ( min-width:426px) and (max-width: 1024px){
+    #tag h1{
+        font-size: 3vw;
+        
+    }
+    #tag button{
+        padding: 0.7vw 3vw;
+        font-size: 2.2vw;
+        color: #000;
+        /* border: none; */
+        border-radius: 3px;
+        font-weight: 600;
+        background-color: #60a4f295;
+        border: 3px solid rgba(40, 177, 240, 0.832);
+    }
+    #nav img{
+        /* border: 1px solid white; */
+        width: 16vw;
+        height: 6.3vh;
+        object-fit: cover;
+    
+    }
+}
